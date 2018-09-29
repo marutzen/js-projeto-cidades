@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Marco Aurélio Rutzen</title>
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<h2 class="titulo">Projeto de Marco Aurélio Rutzen</h2>
+			</div>
+        </header>
+        <section class="container">
+                <h2 id="titulo-form">Adicionar nova cidade</h2>
+                <ul id="mensagens-erro"></ul>
+                <form id="form-adiciona">
+                    <div class="grupo">
+                        <label for="cidade">Cidade:</label>
+                        <input id="cidade" name="cidade" type="text" placeholder="Digite o nome da cidade" class="campo">
+                    </div>
+                    <button id="adicionar-cidade" class="bt bt-adc">Adicionar</button>
+                </form>
+        </section>
+		<main>
+			<section class="container">
+                <h2></h2>
+				<h2>Listagem das Cidades</h2>
+				<table>
+					<thead>
+						<tr>
+                            <th>Id</th>
+                            <th>Nome</th>
+                            <th>Ação</th>
+						</tr>
+					</thead>
+					<tbody id="tabela-cidades">
+					</tbody>
+				</table>
+			</section>
+        </main>
+        <script src="js/webservice.js"></script>
+        <script src="js-cidade/form-cidade.js" ></script>
+        <script src="js-cidade/adicionar-cidade.js"></script>
+        <script src="js-cidade/excluir-cidade.js"></script>
+	</body>
+</html>
