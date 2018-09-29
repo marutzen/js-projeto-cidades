@@ -6,6 +6,8 @@ Apenas é permitido o cadastro de cidades suportadas pela API OpenWeather.
  - SpringBoot
  - MySQL
  - Javascript
+ - HTML
+ - CSS
 
 # API
 OpenWeather: Utilizada para consultar a previsão do tempo das cidades.
