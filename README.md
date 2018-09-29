@@ -10,11 +10,11 @@ Apenas é permitido o cadastro de cidades suportadas pela API OpenWeather.
 # API
 OpenWeather: Utilizada para consultar a previsão do tempo das cidades.
 
-# Comando para baixar o projeto pelo GIT
+# Comando para clonar o projeto
 git clone https://github.com/marutzen/projeto-cidades.git
 
 # Importação do projeto no eclipse
-1. Menu File > Import > Maven > Existing Maven Projects
+1. Menu File > Import > Maven > Existing Maven Projects > Selecionar a pasta do projeto
 2. Botão direito em cima do projeto e Run As > Maven clean
 3. Botão direito em cima do projeto e Run As > Maven install
 
