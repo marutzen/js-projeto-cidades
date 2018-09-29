@@ -1,4 +1,4 @@
-# Projeto para cadastro de cidades e previsão do tempo
+# Projeto para cadastro de cidades e visualização da previsão do tempo
 Projeto criado para cadastro de cidades e visualização da previsão do tempo destas. <br>
 Apenas é permitido o cadastro de cidades suportadas pela API OpenWeather.
 
