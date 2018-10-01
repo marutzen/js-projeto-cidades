@@ -15,6 +15,9 @@ OpenWeather: Utilizada para consultar a previsão do tempo das cidades.
 # Comando para clonar o projeto
 git clone https://github.com/marutzen/projeto-cidades.git
 
+# Eclipse
+O eclipse utilizado deve conter o plugin do SpringBoot ou deve ser utilizado o eclipse STS (download em spring.io).
+
 # Importação do projeto no eclipse
 1. Menu File > Import > Maven > Existing Maven Projects > Selecionar a pasta do projeto
 2. Botão direito em cima do projeto e Run As > Maven clean
